@@ -4,7 +4,8 @@ public class Cough4 {
 
 	public static void main(String args[])
 	{
-		cough(3);
+		cough(5);
+		sneeze(3);
 	}
 
 	public static void cough(int n)
