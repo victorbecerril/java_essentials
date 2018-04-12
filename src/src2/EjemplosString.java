@@ -10,7 +10,7 @@ public class EjemplosString {
 		
 		Input.print("El primer caracter de la palabra " + s + " es " + s.charAt(0) + "\n");
 		
-		Input.print("La palabra " + s + " contiene 'nium'?" + s.contains("nium") + "\n");
+		Input.print("La palabra " + s + " contiene 'nium'?: " + s.contains("nium") + "\n");
 		
 		String b = "boo:and:foo";
 		Input.print(b.split(":"));

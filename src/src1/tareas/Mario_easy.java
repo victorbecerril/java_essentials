@@ -27,11 +27,11 @@ public class Mario_easy {
 	public static void createPyramid() {
 		System.out.print("Altura: ");
 		int height = Input.get_int();
-		for(int i=height;i>0;i--) {
-			for(int j=0;j<height;j++) {
-				if(j<i-1){
+		for(int i=0;i<height;i++) {
+			for(int j=height;j>=0;j--) {
+				if(i<j-1){
 					System.out.print(" ");
-				}else {
+				}else if (i>=j){
 					System.out.print("#");
 				}
 			}
