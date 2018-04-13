@@ -2,23 +2,23 @@ package src4;
 
 public class Triangulo {
 	//propiedades o campos
-	int base;
-	int altura;
+	float base;
+	float altura;
 	
 	
-	public Triangulo(int base, int altura) {
+	public Triangulo(float base, float altura) {
 		this.base = base;
 		this.altura = altura;
 	}
 	
 	
 	//metodos o comportamiento
-	public int sacarArea() {
-		int area = (this.base*this.altura)/2;
+	public float sacarArea() {
+		float area = (this.base*this.altura)/2;
 		return area;
 	}
-	public int sacarPerimetro() {
-		int perimetro = (this.base)*3;
+	public float sacarPerimetro() {
+		float perimetro = (this.base)*3;
 		return perimetro;
 	}
 	
